@@ -1,0 +1,27 @@
+﻿<Window x:Class="DP_Exam_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DP_Exam_WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <Menu HorizontalAlignment="Left" Height="26" VerticalAlignment="Top" Width="680">
+                <MenuItem Header="File">
+                    <MenuItem Name="NewTabItem" Header="New" Click="NewTabItem_Click"></MenuItem>
+                    <MenuItem Name="OpenItem" Header="Open" Click="OpenItem_Click"></MenuItem>
+                    <MenuItem Name="SaveItem" Header="Save" Click="SaveItem_Click"></MenuItem>
+                    <MenuItem Name="SaveAsItem" Header="Save As"></MenuItem>
+                    <MenuItem Name="PrintItem" Header="Print"></MenuItem>
+                    <MenuItem Name="CloseItem" Header="Close" Click="CloseItem_Click"></MenuItem>
+                    <MenuItem Name="CloseAllItem" Header="Close All"></MenuItem>
+                </MenuItem>
+
+            </Menu>
+
+            <TabControl x:Name="products"></TabControl>
+        </StackPanel>
+    </Grid>
+</Window>
