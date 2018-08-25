@@ -1,1 +1,1 @@
-# DP_Exam2_WPF
+tags: Canvas, TabControl, Menu
